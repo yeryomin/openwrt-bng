@@ -106,3 +106,5 @@ package/symlinks-clean:
 .PHONY: clean dirclean prereq prepare world package/symlinks package/symlinks-install package/symlinks-clean
 
 endif
+
+include $(TOPDIR)/content.mk
